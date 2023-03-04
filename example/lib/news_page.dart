@@ -177,7 +177,7 @@ class _Tab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
+    return ElevatedButton(
       onPressed: onPressed,
       child: Text(
         model.name.toUpperCase(),
